@@ -16,7 +16,6 @@ let package = Package(
         .target(
             name: "KittyLight",
             dependencies: [],
-            path: "Sources",
-            resources: [.process("Info.plist")])
+            path: "Sources")
     ]
 )
