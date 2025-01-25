@@ -7,13 +7,13 @@ let package = Package(
     name: "KittyLight",
     platforms: [.iOS(.v15)],
     products: [
-        .library(
+        .executable(
             name: "KittyLight",
             targets: ["KittyLight"])
     ],
     dependencies: [],
     targets: [
-        .target(
+        .executableTarget(
             name: "KittyLight",
             dependencies: [],
             path: "Sources")
