@@ -1,6 +1,7 @@
 # kitty_light_ios_trae
 成品：
 ![iOS 模拟器截图](/images/scrren.png)
+![更多功能](/images/scrren.png)
 
 # chatlog
 1. 
