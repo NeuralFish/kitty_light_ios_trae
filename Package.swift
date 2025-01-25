@@ -7,15 +7,16 @@ let package = Package(
     name: "KittyLight",
     platforms: [.iOS(.v15)],
     products: [
-        .executable(
+        .library(
             name: "KittyLight",
             targets: ["KittyLight"])
     ],
     dependencies: [],
     targets: [
-        .executableTarget(
+        .target(
             name: "KittyLight",
             dependencies: [],
-            path: "Sources")
+            path: "Sources",
+            resources: [.process("Info.plist")])
     ]
 )
