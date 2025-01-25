@@ -14,3 +14,7 @@
 
 4.
 resource 'Info.plist' in target 'KittyLight' is forbidden; Info.plist is not supported as a top-level resource file in the resources bundle
+
+5.
+![](/images/main.PNG)
+我想实现的是这样一个界面，上面有一排颜色，下面可以调整颜色，然后最下面有两排调整饱和度和亮度的进度条，调整这些配置之后，iPhone的屏幕就会显示出对应的颜色和亮度
